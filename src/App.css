@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+.app{
+  min-height: 100vh;
+  background-image: linear-gradient(to top , #a18cd1 0%, #fbc2be 100%) ;
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+.search-button{
+  background-color: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.fetch-Faild{
+  background-color: rgb(31, 19, 139);
+  border-radius: 20px;
+  height: 40px;
+  width: 270px;
+  margin-top: 100px;
+  text-align: center;
+  color: wheat;
+}
+.fetch-Faild h1{
+  font-size: 15px;
+  margin-top: 10px !important;
+}
+.vasat{
+  text-align: center ;
+  margin: 0 auto ;
+  justify-content: center ;
+}
